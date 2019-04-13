@@ -15,4 +15,5 @@ Provides API for PayPal Checkout for iOS. Provides a native in context checkout 
   s.vendored_libraries = 'pod/lib/libPPRiskComponent.a', 'pod/lib/libAuthCore.a', 'pod/lib/libNativeCheckout.a'
   s.ios.vendored_frameworks = 'pod/lib/AppAuth.framework','pod/lib/NativeCheckout.framework'
   s.dependency 'syr.core', '> 1'
+s.swift_version = "4.2"
 end
